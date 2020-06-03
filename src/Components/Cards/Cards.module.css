@@ -1,0 +1,35 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin:5px !important;
+}
+
+.infected {
+    border-bottom : 5px solid rgb(6, 6, 247);
+}
+
+.infected:hover{
+    border-bottom : 5px solid hsla(239, 67%, 42%, 0.714);
+    cursor: pointer;
+}
+ 
+.recovered {
+    border-bottom : 5px solid #00ff00ef;
+}
+
+.recovered:hover{
+    border-bottom : 5px solid hsla(140, 77%, 40%, 0.714);
+    cursor: pointer;
+}
+
+.death {
+    border-bottom : 5px solid #ff000080;
+}
+
+.death:hover{
+    border-bottom : 5px solid hsla(12, 77%, 40%, 0.714);
+    cursor: pointer;
+}
